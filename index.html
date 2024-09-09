@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/calculator-icon.png" />
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <input type="text" class="display" />
+
+        <button class="gray-button" onclick="clearInput()">AC</button>
+        <button class="gray-button" onclick="addAndSub()">+/-</button>
+        <button class="blue-button" onclick="addNumber('/')">/</button>
+        <button class="blue-button" onclick="addNumber('*')">*</button>
+        <button class="black-button" onclick="addNumber('7')">7</button>
+        <button class="black-button" onclick="addNumber('8')">8</button>
+        <button class="black-button" onclick="addNumber('9')">9</button>
+        <button class="blue-button" onclick="addNumber('-')">-</button>
+        <button class="black-button" onclick="addNumber('4')">4</button>
+        <button class="black-button" onclick="addNumber('5')">5</button>
+        <button class="black-button" onclick="addNumber('6')">6</button>
+        <button class="blue-button" onclick="addNumber('+')">+</button>
+        <button class="black-button" onclick="addNumber('1')">1</button>
+        <button class="black-button" onclick="addNumber('2')">2</button>
+        <button class="black-button" onclick="addNumber('3')">3</button>
+        <button class="blue-button equal" onclick="calculated()">=</button>
+        <button class="black-button zero" onclick="addNumber('0')">0</button>
+        <button class="black-button" onclick="addNumber('.')">.</button>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
