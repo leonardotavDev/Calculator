@@ -1,23 +1,23 @@
    <div style="max-width: 800px; width: 100%; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px;">
-        <h1 style="text-align: center; color: #333;">Calculadora Simples</h1>
+        <h1 style="text-align: center; color: #333;">Simple calculator</h1>
         <p style="line-height: 1.6;">
-            Neste projeto, desenvolvi uma calculadora básica utilizando HTML, CSS e JavaScript. A ideia foi criar uma ferramenta funcional que realiza operações matemáticas básicas de forma simples e intuitiva.
+            In this project, I developed a basic calculator using HTML, CSS and JavaScript. The idea was to create a functional tool that performs basic mathematical operations in a simple and intuitive way.
         </p>
         <h2 style="color: #555;">HTML:</h2>
         <p style="line-height: 1.6;">
-            A estrutura da calculadora foi construída com HTML. Criei um campo de entrada para exibir os números e resultados, e uma série de botões que permitem ao usuário inserir números e operadores. Cada botão é associado a uma função específica, que é acionada quando clicada.
+            The structure of the calculator was built with HTML. I created an input field to display the numbers and results, and a series of buttons that allow the user to enter numbers and operators. Each button is associated with a specific function, which is triggered when clicked.
         </p>
         <h2 style="color: #555;">CSS:</h2>
         <p style="line-height: 1.6;">
-            Para o estilo da calculadora, utilizei CSS para garantir que ela tivesse uma aparência limpa e agradável. O design é responsivo e moderno, com bordas arredondadas, sombras sutis e botões que mudam de cor ao serem clicados. O layout da calculadora foi ajustado para centralizar os elementos e tornar a interface amigável.
+            For the styling of the calculator, I used CSS to ensure that it had a clean and pleasant appearance. The design is responsive and modern, with rounded edges, subtle shadows and buttons that change color when clicked. The layout of the calculator was adjusted to center the elements and make the interface user-friendly.
         </p>
         <h2 style="color: #555;">JavaScript:</h2>
         <p style="line-height: 1.6;">
-            A funcionalidade da calculadora foi implementada com JavaScript. Adicionei funções para:
+            The functionality of the calculator was implemented with JavaScript. I added functions to:
         </p>
         <ul style="line-height: 1.6;">
-            <li><strong>Adicionar valores ao visor:</strong> Quando um botão é clicado, o valor correspondente é exibido no campo de entrada.</li>
-            <li><strong>Limpar o visor:</strong> Um botão específico permite ao usuário limpar o visor para começar uma nova operação.</li>
-            <li><strong>Calcular o resultado:</strong> Quando o usuário clica no botão de igual, a expressão matemática é avaliada e o resultado é mostrado. Se houver um erro na expressão, a calculadora exibe uma mensagem de erro.</li>
+            <li><strong>Add values to the display:</strong> When a button is clicked, the corresponding value is displayed in the input field.</li>
+            <li><strong>Clear the display:</strong> A specific button allows the user to clear the display to start a new operation.</li>
+            <li><strong>Calculate the result:</strong> When the user clicks the equals button, the mathematical expression is evaluated and the result is displayed. If there is an error in the expression, the calculator displays an error message.</li>
         </ul>
     </div>
